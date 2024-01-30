@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int n,i;
+    printf("Enter the number:");
+    scanf("%d",&n);
+    printf("The Multiplication table for %d is follow:",n);
+    printf("*********************************");
+    for (i=0;i<=20;i++)
+        printf("\n %d X %d = %d",n,i,(n*i));
+    return 0;
+    
+}
