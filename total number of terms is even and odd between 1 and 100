@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int i , num,count;
+    
+    for(i=1;i<=100;i++)
+        if (i%2==0 && i%3 !=0)
+            count++;
+        printf("the total number of count is %d",count);
+}
